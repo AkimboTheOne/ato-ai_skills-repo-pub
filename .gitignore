@@ -1,0 +1,33 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Build, coverage, and distribution artifacts
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Temporary/editor files
+*.tmp
+*.swp
+*~
+.DS_Store
+
+# Runtime state: never canonical repository content
+.skillctl/
+installations/
+cache/
+indexes/
+sessions/
+logs/
+credentials/
+agent-memory/
